@@ -1,0 +1,6 @@
+<pre>
+    {{lieuActuel() | json}}
+
+    <img [src] = "lieuActuel().photoURL" (load) = "log()"/>
+    <label>Température: {{ lieuActuel().temperature }}°C</label> <button type="button" (click) = "voyagevoyage()" >Voyage voyage</button>
+</pre>
